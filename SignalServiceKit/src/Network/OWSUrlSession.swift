@@ -1205,7 +1205,7 @@ private struct UploadTaskBuilderData: UploadTaskBuilder {
     let requestData: Data
 
     func build(session: URLSession, request: URLRequest, completionBlock: @escaping CompletionBlock) -> URLSessionUploadTask {
-        session.uploadTask(with: request, from: requestData, completionHandler: completionBlock)
+            session.uploadTask(with: request, from: requestData, completionHandler: completionBlock)
     }
 }
 

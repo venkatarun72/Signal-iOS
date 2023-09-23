@@ -306,7 +306,7 @@ public class ChatListViewController: OWSViewController {
 
     private lazy var firstConversationLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .white
+        label.textColor = .black
         label.font = .dynamicTypeBodyClamped
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping

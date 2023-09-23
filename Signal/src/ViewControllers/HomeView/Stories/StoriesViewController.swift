@@ -240,6 +240,7 @@ class StoriesViewController: OWSViewController, StoryListDataSourceDelegate {
 
         view.backgroundColor = Theme.backgroundColor
         tableView.backgroundColor = Theme.backgroundColor
+        // tableView.backgroundColor = .red
         searchBarContainer.backgroundColor = Theme.backgroundColor
         searchBarBackdropView.backgroundColor = Theme.backgroundColor
 

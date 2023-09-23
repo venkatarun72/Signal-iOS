@@ -243,7 +243,7 @@ final public class Theme: NSObject {
 
     @objc
     public class var backgroundColor: UIColor {
-        isDarkThemeEnabled ? darkThemeBackgroundColor : .white
+        isDarkThemeEnabled ? darkThemeBackgroundColor : .systemOrange
     }
 
     public class var secondaryBackgroundColor: UIColor {
@@ -251,15 +251,15 @@ final public class Theme: NSObject {
     }
 
     public class var lightThemeSecondaryBackgroundColor: UIColor {
-        .ows_gray02
+        .systemOrange
     }
 
     public class var darkThemeSecondaryBackgroundColor: UIColor {
-        .ows_gray80
+        .systemOrange
     }
 
     public class var washColor: UIColor {
-        isDarkThemeEnabled ? darkThemeWashColor : .ows_gray05
+        isDarkThemeEnabled ? darkThemeWashColor : .white
     }
 
     public class var primaryTextColor: UIColor {
@@ -267,7 +267,7 @@ final public class Theme: NSObject {
     }
 
     public class var primaryIconColor: UIColor {
-        isDarkThemeEnabled ? darkThemeNavbarIconColor : .ows_gray75
+        isDarkThemeEnabled ? darkThemeNavbarIconColor : .systemOrange
     }
 
     public class var secondaryTextAndIconColor: UIColor {
@@ -276,7 +276,7 @@ final public class Theme: NSObject {
 
     public class var ternaryTextColor: UIColor { .ows_gray45 }
 
-    public class var placeholderColor: UIColor { .ows_gray45 }
+    public class var placeholderColor: UIColor { .systemOrange }
 
     public class var hairlineColor: UIColor {
         isDarkThemeEnabled ? .ows_gray75 : .ows_gray15
@@ -289,7 +289,7 @@ final public class Theme: NSObject {
     public class var backdropColor: UIColor { .ows_blackAlpha40 }
 
     public class var navbarBackgroundColor: UIColor {
-        isDarkThemeEnabled ? darkThemeNavbarBackgroundColor : .white
+        isDarkThemeEnabled ? darkThemeNavbarBackgroundColor : .yellow
     }
 
     public class var navbarTitleColor: UIColor { primaryTextColor }

@@ -260,7 +260,7 @@ public enum PaletteChatColor: String, CaseIterable {
     case plum = "Plum"
     case taupe = "Taupe"
     case steel = "Steel"
-
+    case lemon = "Lemon"
     // Gradients
     case ember = "Ember"
     case midnight = "Midnight"
@@ -317,6 +317,8 @@ public enum PaletteChatColor: String, CaseIterable {
             return .solidColor(color: UIColor(rgbHex: 0x8F616A).asOWSColor)
         case .steel:
             return .solidColor(color: UIColor(rgbHex: 0x71717F).asOWSColor)
+        case .lemon:
+            return .solidColor(color: UIColor(rgbHex: 0xFFFF00).asOWSColor)
         case .ember:
             return .gradient(
                 gradientColor1: UIColor(rgbHex: 0xE57C00).asOWSColor,

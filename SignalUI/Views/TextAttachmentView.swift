@@ -574,7 +574,7 @@ open class TextAttachmentView: UIView {
         public init(linkPreview: LinkPreviewState, isDraft: Bool = false, forceCompactSize: Bool = false) {
             super.init(frame: .zero)
 
-            let backgroundColor: UIColor = isDraft ? Theme.darkThemeTableView2PresentedBackgroundColor : .ows_gray02
+            let backgroundColor: UIColor = isDraft ? Theme.darkThemeTableView2PresentedBackgroundColor : .yellow
             let backgroundView = addBackgroundView(withBackgroundColor: backgroundColor)
 
             let title = linkPreview.title
